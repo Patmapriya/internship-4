@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #0ea5e9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #111;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.weather {
+  background: rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: #ffdddd;
+  margin-top: 1rem;
+}
